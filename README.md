@@ -85,3 +85,17 @@ This repository now represents my Foundry milestone for:
 
 - FundMe
 
+
+
+## Automated verification
+
+GitHub Actions builds and tests the Foundry project on pushes and pull requests using the stable Foundry toolchain.
+
+```bash
+forge build
+forge test
+```
+
+## Status
+
+This repository is retained as a foundational Solidity/Foundry learning milestone. It demonstrates storage, inheritance, factory deployment, contract-to-contract interaction, and an 8-test Foundry suite. More advanced funding and price-feed work lives in the separate `fund-me-solidity` repository.
